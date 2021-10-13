@@ -10,7 +10,8 @@ namespace RandomLetter
             string userName = Console.ReadLine();
 
             Random rnd = new Random();
-            Console.WriteLine($"Su juhuslik täht on:");
+            string myuserName = rnd.ToString;
+            Console.WriteLine($"Su juhuslik täht on{userName}:");
         }
     }
 }
